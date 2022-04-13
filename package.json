@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^6.3.0",
+    "i": "^0.3.7",
+    "npm": "^8.6.0"
+  },
+  "name": "tg-message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
